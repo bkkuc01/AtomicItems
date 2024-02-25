@@ -1,0 +1,20 @@
+messages:
+  prefix: '&5[AW] &8»'
+  noPermissions: '$prefix &fДанная команда &7не найдена&f, или у Вас &7недостаточно &fправ.'
+  helpPage:
+    - ''
+    - '                  &8[ &5&lAW &8]'
+    - ''
+    - ' &fВыдать предмет&8: &d/aitems give (игрок) (предмет)'
+    - ' &fПерезагрузить файлы&8: &d/aitems reload'
+    - ''
+  invalidSubCommand: '$prefix &fДанная подкоманда &7не найдена&f.'
+  commands:
+    give:
+      usage: '$prefix &fИспользование&8: &d/aitems give (игрок) (предмет)'
+      invalidPlayer: '$prefix &fИгрок &7не найден&f.'
+      invalidItem: '$prefix &fПредмет &7не найден&f.'
+      successfully: '$prefix &fИгрок &7$player &fполучил &a$item&f.'
+    reload:
+      error: '$prefix &fОшибка при попытке &7перезагрузить &fфайлы, &cпроверьте консоль&f.'
+      successfully: '$prefix &fКонфигурация &aуспешна &fперезагружена. &8(&7AtomicItems&8)'

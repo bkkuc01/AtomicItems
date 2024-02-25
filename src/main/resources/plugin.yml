@@ -1,0 +1,12 @@
+name: AtomicItems
+version: '${version}'
+main: pl.bkkuc.atomicitems.Plugin
+api-version: '1.16'
+
+depend:
+  - NBTAPI
+  - PlayerPoints
+
+commands:
+  atomicitems:
+    aliases: [aitems]
